@@ -51,13 +51,21 @@ button {
 
 button[type=reset] {
   align-self: flex-end;
-  background-color: grey;
+  background-color: #DE4841;
   min-width: 3.25em;
+}
+
+button[type=reset]:disabled {
+  background-color: #D0CDCD;
 }
 
 button[type=submit] {
   margin: 0.5% 0;
   background-color: #1C3455;
+}
+
+button[type=submit]:disabled {
+  background-color: #607AA0;
 }
 
 .eight-ball {
