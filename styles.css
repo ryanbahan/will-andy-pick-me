@@ -40,6 +40,7 @@ form {
   justify-content: space-between;
   padding: 1%;
   background-color: #E6ECF4;
+  width: 50%;
 }
 
 button {
@@ -67,4 +68,12 @@ button[type=submit] {
 .woody {
   width: 30%;
   margin-left: 15%;
+}
+
+.question-display {
+  text-align: center;
+}
+
+.answer-display {
+  text-align: center;
 }

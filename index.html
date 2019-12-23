@@ -10,10 +10,12 @@
     <h1>Will Andy Pick Me?</h1>
     <main>
       <form>
-        <input type="text" placeholder="Ask your question here!">
+        <input type="text" class="question" placeholder="Ask your question here!" minlength="5" required>
         <button type="submit">Get your answer</button>
         <img src="./assets/eight-ball.png" class="eight-ball">
-        <button type="reset">Clear</button>
+        <p class="question-display"></p>
+        <p class="answer-display"></p>
+        <button type="reset" class="clear-form">Clear</button>
       </form>
       <img src="./assets/woody.png" class="woody">
       <script src="index.js"></script>
