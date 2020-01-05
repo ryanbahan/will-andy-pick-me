@@ -50,18 +50,20 @@ form fieldset {
 form fieldset input,
 form fieldset button {
   width: 100%;
+  font-size: 1.5em;
 }
 
 button {
   color: #fff;
   border: none;
-  padding: 0.5% 2%;
+  padding: 1% 2.5%;
 }
 
 button[type=reset] {
   align-self: flex-end;
   background-color: #DE4841;
   min-width: 3.25em;
+  font-size: 1.25em;
 }
 
 button[type=reset]:disabled {
@@ -79,7 +81,7 @@ button[type=submit]:disabled {
 
 .eight-ball {
   width: 35%;
-  margin: 2.5% auto 10% auto;
+  margin: 10% auto 10% auto;
 }
 
 .woody {
@@ -89,8 +91,14 @@ button[type=submit]:disabled {
 
 .question-display {
   text-align: center;
+  margin-bottom: 2.5%;
 }
 
 .answer-display {
   text-align: center;
+}
+
+.question-display,
+.answer-display {
+  font-size: 1.25em;
 }
